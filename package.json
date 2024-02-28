@@ -1,0 +1,40 @@
+{
+  "name": "coding-club-gpt",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=8"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "format": "prettier --cache --write . !pnpm-lock.yaml"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.1.1",
+    "clsx": "^2.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scroll-to-bottom": "^4.2.0",
+    "react-textarea-autosize": "^8.5.3"
+  },
+  "devDependencies": {
+    "@total-typescript/ts-reset": "^0.5.1",
+    "@types/react": "^18.2.60",
+    "@types/react-dom": "^18.2.19",
+    "@types/react-scroll-to-bottom": "^4.2.4",
+    "@vitejs/plugin-react-swc": "^3.6.0",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "prettier": "^3.2.5",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
